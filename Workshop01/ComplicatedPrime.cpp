@@ -22,10 +22,10 @@ int reverse(int n) {
 }
 
 bool isPrime(int n) {
-	if (n == 1) return false;
-	if (n % 2 == 0) return n == 2;
-	const int S = floor(sqrt(n));
-	for (int i = 3;i <= S;i++)
-		if (n % i == 0) return false;
-	return true;
+  if (n == 1) return false;
+  if (n % 2 == 0) return n == 2;
+  const int S = floor(sqrt(n));
+  for (int i = 3; i <= S; i += 2)
+    if (n % i == 0) return false;
+  return true;
 }
