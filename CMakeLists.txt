@@ -9,3 +9,4 @@ set(CMAKE_CXX_FLAGS "-static-libstdc++")
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON CACHE BOOL "ON")
 
 add_subdirectory(Workshop01)
+add_subdirectory(SinglyLinkedListImplementation)
