@@ -1,2 +1,5 @@
+# IDE files
 .idea
-build
+# generated files
+build*
+*.zip
